@@ -1,6 +1,8 @@
 package Trees;
 
-class TreeNode {
+public class MaximumDepthOfBinaryTree {
+
+    static class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
@@ -11,9 +13,8 @@ class TreeNode {
           this.left = left;
           this.right = right;
       }
-  }
+    }
 
-public class MaximumDepthOfBinaryTree {
     public int maxDepth(TreeNode root) {
         if(root == null) return 0;
         
