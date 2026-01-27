@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
 
     public boolean containsDuplicate(int[] nums) {
@@ -13,12 +16,5 @@ class Solution {
         }
 
         return false;
-    }
-}
-
-public class Main {
-
-    public static void Main(String[] args) {
-
     }
 }
