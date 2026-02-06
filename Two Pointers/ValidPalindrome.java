@@ -1,4 +1,4 @@
-class Solution {
+class ValidPalindrome {
 
     public boolean validPalindrome(String s) {
         String phrase = s.toLowerCase().replaceAll("[^a-z0-9]", "");
