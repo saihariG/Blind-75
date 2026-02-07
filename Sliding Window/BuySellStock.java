@@ -1,4 +1,4 @@
-class Solution {
+class BuySellStock {
 
     public int maxProfit(int[] prices) {
         int i = 0;
